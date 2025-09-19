@@ -1,0 +1,62 @@
+header img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 10%;
+}
+header h1{
+    font-family: "Lexend Exa", sans-serif;
+    background: linear-gradient(to bottom, #4a62fe, #0022fd);
+    padding: 50px;
+    text-align: center;
+    color: #222222;
+}
+body{
+    margin: 0;
+    background-color:rgb(31, 31, 31);
+    background-image: url(https://images.pexels.com/photos/12330299/pexels-photo-12330299.jpeg);
+    background-color: linear-gradient(to bottom, #686868, #2c2c2c);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+section {
+    font-family: "Lexend Exa", sans-serif;
+    padding: 10px;
+    color: #fafbfc;
+    text-shadow: 2px 2px 5px black;
+    position: absolute;
+    width: 40%;
+}
+main img{
+    float: right;   
+    margin-left: 20px; 
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+section details{
+    font-family: "Lexend Exa", sans-serif;
+    padding: 10px;
+    color: #fafbfc;
+    text-shadow: 2px 2px 5px black;
+    width: 100%;
+}
+footer {
+    background: linear-gradient(to bottom, #4a62fe, #0022fd);
+    padding: 100px;
+    position: relative;
+    bottom: -950px
+}
+footer p{
+    font-family: "Lexend Exa", sans-serif;
+    color: #222222;
+    position: relative;
+    left: 350px;
+}
