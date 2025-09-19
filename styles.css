@@ -1,0 +1,48 @@
+header img{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 7%;
+}
+header h1{
+    font-family: "Lexend Exa", sans-serif;
+    background: linear-gradient(to bottom, #303433, #001c20);
+    padding: 50px;
+    text-align: center;
+    color: #fafbfc;
+}
+body{
+    margin: 0;
+    background-color:rgb(31, 31, 31);
+}
+section p{
+    font-family: "Lexend Exa", sans-serif;
+    flex: 1;
+    margin-right: 20px; 
+    color: #fafbfc;
+    position: absolute;
+    left: 0;
+    width: 50%;
+}
+section img{
+    float: right;   
+    margin-left: 20px; 
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+footer{
+    display: flex;
+    font-family: "Lexend Exa", sans-serif;
+    width: 100%;
+    background: linear-gradient(to bottom, #303433, #001c20);
+    color: #fafbfc;
+    align-self: flex-end;
+    height: 30px;
+    padding: 15px;
+    justify-content: center;
+}
